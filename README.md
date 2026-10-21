@@ -1,4 +1,4 @@
-# Secure Event Delivery — Set 3-fanout: Fanout
+# Secure Event Delivery — Set 3: Notification Fanout
 
 ## Begin here
 
